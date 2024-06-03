@@ -8,8 +8,6 @@ if [ ! -d ${output_model} ];then
     mkdir ${output_model}
 fi
 
-cd /home/export/base/ycsc_chenkh/hitici_02/online1/LLM_for_mt/llama2-lora-fine-tuning
-
 deepspeed --master_port ${master_port} finetune-lora.py \
     --deepspeed ds_configs/stage2_no_offloading.conf \
     --model_name_or_path ${model_path} \
