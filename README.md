@@ -71,7 +71,7 @@ bash exp_scripts/full_weight_generate.sh ${base_model} ${test_file} ${output_fil
 - output_file: path to store the mt result
 - lang_pair: choose the translation directions: zh-en, de-en etc.
 
-### Contrastive Decoding
+## Contrastive Decoding
 
 To execute the contrastive decoding, use the following command:
 
@@ -85,7 +85,7 @@ bash exp_scripts/full_weight_generate.sh ${base_model} ${test_file} ${output_fil
 - output_file: path to store the mt result
 - lang_pair: choose the translation directions: zh-en, de-en etc.
 
-### Target-constrained Fine-Tuning (Full-Weight)
+## Target-constrained Fine-Tuning (Full-Weight)
 
 Using the full-weight target-constrained instruction fine-tuning approach. Execute the following command:
 
@@ -96,7 +96,7 @@ bash exp_scripts/full_weight_eval.sh
 
 change the config according to your situation within `exp_scripts/full_weight_eval.sh` 
 
-### Target-constrained Fine-Tuning (LoRA)
+## Target-constrained Fine-Tuning (LoRA)
 
 Using the LoRA target-constrained instruction fine-tuning approach. Execute the following command:
 
