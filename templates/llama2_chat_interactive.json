@@ -1,0 +1,6 @@
+{
+    "description": "Template used by llama2-chat using system message.",
+    "prompt_no_input": "[INST] <<SYS>>\n{system_message}\n<</SYS>>\n\n{instruction} [/INST]",
+    "prompt_inputs": "[INST] <<SYS>>\n{system_message}\n<</SYS>>\n\n{instruction}{input} [/INST]"
+}
+

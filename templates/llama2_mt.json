@@ -1,0 +1,6 @@
+{
+    "description": "Template used by llama2-chat.",
+    "prompt_no_input": "[INST] {instruction} [/INST]",
+    "prompt_inputs": "[INST] {instruction}{input} [/INST]"
+}
+
