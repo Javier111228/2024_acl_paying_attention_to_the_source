@@ -35,14 +35,12 @@ The original repository can be found [here](https://github.com/AzureStarz/paying
 ```
 conda create -n pay_more_attention python=3.9
 conda activate pay_more_attention
-
 ```
 
 If you use **Nvidia GPUs**, install torch with cuda 11.8
 
 ```
 pip3 install torch torchvision torchaudio --index-url <https://download.pytorch.org/whl/cu118>
-
 ```
 
 Then install other dependencies:
@@ -56,7 +54,7 @@ bash install_dep.sh
 Here we show how to
 
 - use reweight attention(RA) and contrastive decoding(CD)
-- fine-tune human-written parallel data fine-tuning once stage 1 is completed, including full-weight and LoRA fine-tuning (stage 2)
+- target-constrained tuning, including full-weight and LoRA fine-tuning
 
 ## Reweight Attention
 
