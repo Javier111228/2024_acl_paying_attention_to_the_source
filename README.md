@@ -116,22 +116,22 @@ Specifically, we use our contribution scores analysis tool adapted for LLMs, whi
 
 ```
 data
-	├──  general
-	│   ├── flores
-	│   │   ├── flores.de-en.csv
-	│   │   ├── flores.en-de.csv
-	│   │   ├── flores.en-zh.csv
-	│   │   └── flores.zh-en.csv
-	│   └── wmt22
-	│       ├── wmt22.de-en.csv
-	│       ├── wmt22.en-de.csv
-	│       ├── wmt22.en-zh.csv
-	│       └── wmt22.zh-en.csv
-	└── unfaithful
-		├── hallu_dataset_de-en.csv
-		├── hallu_dataset_en-de.csv
-		├── hallu_dataset_en-zh.csv
-		└── hallu_dataset_zh-en.csv
+├──  general
+│   ├── flores
+│   │   ├── flores.de-en.csv
+│   │   ├── flores.en-de.csv
+│   │   ├── flores.en-zh.csv
+│   │   └── flores.zh-en.csv
+│   └── wmt22
+│       ├── wmt22.de-en.csv
+│       ├── wmt22.en-de.csv
+│       ├── wmt22.en-zh.csv
+│       └── wmt22.zh-en.csv
+└── unfaithful
+	├── hallu_dataset_de-en.csv
+	├── hallu_dataset_en-de.csv
+	├── hallu_dataset_en-zh.csv
+	└── hallu_dataset_zh-en.csv
 
 ```
 
