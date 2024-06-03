@@ -1,0 +1,13 @@
+pip install peft
+pip install sentencepiece
+pip install sacrebleu
+pip install ipython
+pip install datasets
+pip install evaluate
+pip install deepspeed
+pip install einops
+pip install zstandard
+pip install accelerate
+pip install jsonlines
+pip install trl
+pip install unbabel-comet
